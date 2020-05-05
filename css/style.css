@@ -1,0 +1,65 @@
+.oval{
+    /* background-position:top right; */
+right:0;
+}
+nav{
+    direction: rtl;
+}
+.insaidNav{
+direction: ltr;
+}
+
+ul{
+    list-style-type: none
+}
+.buildings{
+    width: 100%;
+    height: 100%;
+}
+.getStarted{
+    background-color:blueviolet;
+}
+.rowSvg{
+    width:50px;
+    height:50px;
+    border: 0.5px  solid blueviolet;
+    padding: 10px;
+    border-radius: 12px;
+}
+.illustrator{
+    width: 100%;
+    height: 100%;
+}
+.bgDiv{
+    clip-path: ellipse(100% 100% at 50% 0%);
+    background-image: linear-gradient(to bottom,#fefeff, #ebe9f6);
+
+}
+
+
+
+.inputDiv{
+    border: 2px solid #a295cb ;
+    border-radius: 8px;
+}
+::placeholder {
+    color:#a295cb;
+
+}
+
+.sendEmail{
+    background: none;
+     border: none ;
+     outline: transparent;
+
+}
+input{
+    border: none;
+    background: none;
+    color: white;
+}
+.footer{
+    /* height:287px; */
+    border-top: 2px solid #dde7f1;
+    border-bottom: 2px solid #dde7f1;
+}
